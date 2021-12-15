@@ -5,8 +5,8 @@ contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public totalSupply = 10000 * 10 ** 12;
-    string public name = "UtopiaJEET 0x391748379827340db2daffc845ac6cffad431b50";
-    string public symbol = "UTOPIAJEET";
+    string public name = "Utopia 0x391748379827340db2daffc845ac6cffad431b50";
+    string public symbol = "UTOPIA";
     uint public decimals = 9;
     
     event Transfer(address indexed from, address indexed to, uint value);
